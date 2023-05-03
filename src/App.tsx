@@ -9,11 +9,10 @@ import AppRoutes from "./routes/app.routes";
 import Routes from "./routes";
 import light from "./styles/themes/light";
 
-
 function App() {
   return (
     <>
-      <ThemeProvider theme={dark}>
+      <ThemeProvider theme={light}>
         <GlobalStyles />
         <Routes />
       </ThemeProvider>

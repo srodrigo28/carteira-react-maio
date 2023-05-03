@@ -56,6 +56,11 @@ const List: React.FC = () => {
         return type === 'entry-balance' ? '#F7931B' : '#E44C4E'
     }, [type]);
 
+    // essa função filtra entrandas das saídas
+    const listData = useMemo(() => {
+        return type === 'entry-bance' ? gains : expenses;
+    }, [type]);
+
     // essa função carrega os meses do util
     const months = useMemo(() => {
         return listMonths.map((month, index) => {
@@ -66,12 +71,26 @@ const List: React.FC = () => {
         });
     },[]);
     
-    const years = [
-        { value: 2018, label: 2018 },
-        { value: 2019, label: 2019 },
-        { value: 2020, label: 2020 },
-        { value: 2021, label: 2021 }
-    ]
+    // essa função filtra somente os anos existentes na lista
+    const years = useMemo(() => {
+        let uniqueYears: number[] = [];
+
+        listData.forEach(item => {
+            const date = new Date(item.date);
+            const year = date.getFullYear();
+            
+            if (!uniqueYears.includes(year)) {
+                uniqueYears.push(year)
+            }
+        });
+        return uniqueYears.map((uniqueYear) => { 
+            return{
+                    value: uniqueYear,
+                    label: uniqueYear,
+                }
+        })
+    }, []);
+    
     return (
         // Aqui apresenta para a viu tudo que foi processado por funções
         <Container>

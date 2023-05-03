@@ -11,4 +11,4 @@ export default [
     'Outubro',
     'Novembro',
     'Dezembro'
-]
+];
