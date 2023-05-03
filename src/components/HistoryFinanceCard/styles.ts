@@ -36,7 +36,7 @@ export const Container = styled.li`
 
 export const Tag = styled.div<ITagProps>`
     background-color: ${props => props.color};
-    width: 10px;
+    width: 15px;
     height: 60px;
     position: absolute;
     margin-left: -12px;

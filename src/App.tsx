@@ -7,6 +7,7 @@ import List from "./pages/List";
 import Dashboard from "./pages/Dashboard";
 import AppRoutes from "./routes/app.routes";
 import Routes from "./routes";
+import light from "./styles/themes/light";
 
 
 function App() {
