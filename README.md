@@ -9,5 +9,6 @@
     * npm install --save @types/styled-components
     * npm install react-switch
     * npm install --save react-icons
-
     * npm install --save @types/react-router-dom
+# Observações
+    * Aula 22 carrega as informações no Page List
