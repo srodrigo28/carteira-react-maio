@@ -10,5 +10,6 @@
     * npm install react-switch
     * npm install --save react-icons
     * npm install --save @types/react-router-dom
+    * npm install --save uuid
 # Observações
     * Aula 22 carrega as informações no Page List
