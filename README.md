@@ -74,3 +74,5 @@ git merge novoBranch
 ```
 git pull
 ```
+
+* testando checkout main
