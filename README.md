@@ -42,3 +42,35 @@
 ```sh
     https://stackoverflow.com/questions/59106742/typescript-error-property-children-does-not-exist-on-type-reactnode
 ```
+
+### Git Comandos
+
+* Cria um novo branch
+```
+git checkout -b "novoBranch"
+```
+
+* lista e mostra o branch atual
+```
+git branch
+```
+
+* munda de branch
+```
+git checkout main
+```
+
+* push na branch desejada
+```
+git push origin novoBranch
+```
+
+* comando para unir o código atual com a outra branch
+```
+git merge novoBranch
+```
+
+* comando para sincronizar repositorio
+```
+git pull
+```
