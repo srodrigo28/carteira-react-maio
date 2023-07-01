@@ -1,15 +1,13 @@
 import { Container } from "./styles";
 
-interface ChildrenProps {
+interface IpropsContent {
     children?: React.ReactNode
 }
 
-const Content: React.FC<ChildrenProps> = ( {children} ) => {
+export function Content( {children} : IpropsContent ) {
     return (
         <Container>
             {children}
         </Container>
     )
 }
-
-export default Content;

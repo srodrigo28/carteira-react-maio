@@ -1,11 +1,9 @@
 import { Container } from "./styles";
 
-const Signin: React.FC = () => {
+export function Signin(){
     return (
         <Container>
             <h1>Signin</h1>
         </Container>
     );
 }
-
-export default Signin;

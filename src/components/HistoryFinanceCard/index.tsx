@@ -6,7 +6,6 @@ interface IHistoryFinanceCard{
     subtitle: string;
     amount: string;
 }
-
 const HistoryFianceCard: React.FC<IHistoryFinanceCard> = ({
     tagColor, title, subtitle, amount
 }) => {

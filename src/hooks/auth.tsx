@@ -5,6 +5,7 @@ interface IAuthContext{
     signIn(email: string, password: string): void;
     signOut(): void;
 }
+
 interface IpropsChildren{
     children: React.ReactNode;
 }

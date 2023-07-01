@@ -14,7 +14,7 @@ import {
     MenuItemLink
 } from "./styles";
 
-const Aside: React.FC = () => {
+export function Aside() {
     return (
         <Container>
             <Header>
@@ -43,5 +43,3 @@ const Aside: React.FC = () => {
         </Container>
     )
 }
-
-export default Aside;

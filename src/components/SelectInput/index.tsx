@@ -6,7 +6,6 @@ interface ISelectInputProps {
         label: string | number;
     }[],
 }
-
 const SelectInput: React.FC<ISelectInputProps> = ({options}) => {
     return (
         <Container>

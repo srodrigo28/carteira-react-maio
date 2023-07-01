@@ -1,8 +1,8 @@
-import ContentHeader from '../../components/ContentHeader'
+import {ContentHeader} from '../../components/ContentHeader'
 import SelectInput from '../../components/SelectInput'
 import { Container } from './styles'
 
-const Dashboard: React.FC = () => {
+export function Dashboard(){
     const options = [
         { value: '2023', label: '2023' },
         { value: '2022', label: '2022' },
@@ -17,5 +17,3 @@ const Dashboard: React.FC = () => {
         </Container>
     )
 }
-
-export default Dashboard

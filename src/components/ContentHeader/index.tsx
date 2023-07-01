@@ -6,9 +6,7 @@ import { Container, TitleContainer, Controllers } from "./styles";
         children: React.ReactNode;
 }
     
-const ContentHeader: React.FC<IContentHeaderProps> = ({
-    title, lineColor, children
-}) => {
+export function ContentHeader({ title, lineColor, children} : IContentHeaderProps) {
     return(
         <Container>
             <TitleContainer lineColor={lineColor}>
@@ -20,5 +18,3 @@ const ContentHeader: React.FC<IContentHeaderProps> = ({
         </Container>
     )
 }
-
-export default ContentHeader;
