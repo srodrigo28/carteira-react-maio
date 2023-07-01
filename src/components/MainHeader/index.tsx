@@ -7,7 +7,7 @@ import {
     UserName,
     Welcome,
 } from "./styles";
-import Toggle from "../Toogle";
+import {Toggle} from "../Toogle";
 
 const MainHeader: React.FC = () => {
     const emoji = useMemo(() => {

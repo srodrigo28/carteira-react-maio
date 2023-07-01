@@ -4,7 +4,7 @@ import { v4 as uuid } from 'uuid';
 
 import SelectInput from "../../components/SelectInput";
 import { Container, Content, Filters } from "./styles";
-import ContentHeader from "../../components/ContentHeader";
+import {ContentHeader} from "../../components/ContentHeader";
 import HistoryFianceCard from "../../components/HistoryFinanceCard";
 
 import gains from "../../repositories/gains";
@@ -22,7 +22,7 @@ interface IData{
     tagColor: string;
 }
 
-const List: React.FC = () => {
+export function List(){
     const { type } = useParams(); // aqui pegamos o parametro passado na url do navegador
     const [data, setData] = useState<IData[]>([]); // aqui controla o estado da data
 
@@ -124,4 +124,3 @@ const List: React.FC = () => {
         </Container>
     )
 }
-export default List;
