@@ -7,7 +7,7 @@ import light from "./styles/themes/light";
 function App() {
   return (
     <>
-      <ThemeProvider theme={light}>
+      <ThemeProvider theme={dark}>
         <GlobalStyles />
         <Routes />
       </ThemeProvider>
