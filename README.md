@@ -2,10 +2,17 @@
     * npx create-react-app name-of-your-project
     * npx create-react-app name-of-your-project --template typescript
     * npm create vite@latest
-# Ultimo visto
+
+#### Pagens
+
+<img src="./screens/page1.png" alt="não carregou">
+<br>
+<hr>
+<br>
+<img src="./screens/page2.png" alt="não carregou">
+#### Ultimo visto
     * https://www.udemy.com/course/react-e-typescript/learn/lecture/21312554#questions
-## Referências
-### GitHub
+#### Referências
 * Rafaela Ballerini 1
 ```
 https://www.youtube.com/watch?v=DqTITcMq68k&t=616s
@@ -19,20 +26,20 @@ https://www.youtube.com/watch?v=UBAX-13g8OM&t=781s
 ```
 https://www.youtube.com/watch?v=UBAX-13g8OM&t=781s
 ```
-### React Hooks
-### React Router Dom
-### React ContextApi
-### React Styled-Components
-### React Redux
-# Dependencies
+#### React Hooks
+#### React Router Dom
+#### React ContextApi
+#### React Styled-Components
+#### React Redux
+#### Dependencies
     * npm install --save styled-components
     * npm install --save @types/styled-components
     * npm install react-switch
     * npm install --save react-icons
     * npm install --save @types/react-router-dom
     * npm install --save uuid
-# Observações
-### Atualizado para React 18
+### Observações
+#### Atualizado para React 18
 ```sh
     npm create vite@latest
 ```
@@ -48,7 +55,7 @@ https://www.youtube.com/watch?v=UBAX-13g8OM&t=781s
 ```sh
     https://react-icons.github.io/react-icons/icons?name=md
 ```
-# Problemas Encontrados
+#### Problemas Encontrados
     * Video N. 49, Pasta src / hooks/auth.tsx
     * Descrição do problema falta de interface para children
 ```sh
@@ -58,34 +65,8 @@ https://www.youtube.com/watch?v=UBAX-13g8OM&t=781s
 ```sh
     https://stackoverflow.com/questions/59106742/typescript-error-property-children-does-not-exist-on-type-reactnode
 ```
-# GitHub Comandos
-### Git comandos padrões
-* 1. comando curinga para ver a situação do git
-```
-git status
-```
 
-* 2. Comando para adicionar todos os arquivos atualizados na area de stage
-```
-git add .
-```
-
-* 3. comando para adicionar um titulo para as alterações
-```
-git commit -m titulo-da-atualizacao
-```
-
-* 4. comando usando para enviar para git remote
-```
-git push
-```
-
-* 5. comando usando para enviar para git remote
-```
-    git push --force
-```
-
-### Git Comandos Branch
+#### Git Comandos Branch
 
 * 1. Cria um novo branch
 ```
